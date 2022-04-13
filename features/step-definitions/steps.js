@@ -26,6 +26,7 @@ Then(/^I should see a flash message saying (.*)$/, async (message) => {
     await expect(SecurePage.flashAlert).toHaveTextContaining(message);
 });
 
+
 //bookstore steps
 
 When(/^I write the book with the title (.*)$/, async (searchBox) => {
@@ -35,6 +36,7 @@ When(/^I write the book with the title (.*)$/, async (searchBox) => {
 Then(/^I should see on the screen a book with the title (.*)$/, async (title) => {
   await expect(SecurePage.searchedBook).toHaveTextContaining(title);
 });
+
 
 //profile steps
 

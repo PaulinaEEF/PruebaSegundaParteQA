@@ -1,6 +1,6 @@
 Feature: Bookstore on ToolsQA
 
-  Scenario Outline: As a user, I can log into the secure area
+  Scenario Outline: As a user, I can see the books stored
 
     Given I am on the bookstore page
     When I write the book with the title <searchBox>
